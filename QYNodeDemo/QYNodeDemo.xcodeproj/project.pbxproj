@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B598649C1C07F6FA00C48ED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B598649B1C07F6FA00C48ED5 /* main.m */; };
+		B598649F1C07F6FA00C48ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B598649E1C07F6FA00C48ED5 /* AppDelegate.m */; };
+		B59864A21C07F6FA00C48ED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59864A11C07F6FA00C48ED5 /* ViewController.m */; };
+		B59864A51C07F6FA00C48ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59864A31C07F6FA00C48ED5 /* Main.storyboard */; };
+		B59864A71C07F6FA00C48ED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59864A61C07F6FA00C48ED5 /* Images.xcassets */; };
+		B59864AA1C07F6FA00C48ED5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59864A81C07F6FA00C48ED5 /* LaunchScreen.xib */; };
+		B59864B61C07F6FA00C48ED5 /* QYNodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B59864B51C07F6FA00C48ED5 /* QYNodeDemoTests.m */; };
+		B59864C71C07F88E00C48ED5 /* NSTimer+QYAddExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B59864C61C07F88E00C48ED5 /* NSTimer+QYAddExtensions.m */; };
+		B59864CA1C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B59864C91C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.m */; };
+		B59864CE1C08298500C48ED5 /* QYClassPropertyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B59864CD1C08298500C48ED5 /* QYClassPropertyInfo.m */; };
+		B59864D11C085F5100C48ED5 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B59864D01C085F5100C48ED5 /* NSObject+YYModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B59864B01C07F6FA00C48ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B598648E1C07F6FA00C48ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59864951C07F6FA00C48ED5;
+			remoteInfo = QYNodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B59864961C07F6FA00C48ED5 /* QYNodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYNodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B598649A1C07F6FA00C48ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B598649B1C07F6FA00C48ED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B598649D1C07F6FA00C48ED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B598649E1C07F6FA00C48ED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B59864A01C07F6FA00C48ED5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B59864A11C07F6FA00C48ED5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B59864A41C07F6FA00C48ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B59864A61C07F6FA00C48ED5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B59864A91C07F6FA00C48ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B59864AF1C07F6FA00C48ED5 /* QYNodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYNodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59864B41C07F6FA00C48ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59864B51C07F6FA00C48ED5 /* QYNodeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYNodeDemoTests.m; sourceTree = "<group>"; };
+		B59864C51C07F88E00C48ED5 /* NSTimer+QYAddExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+QYAddExtensions.h"; sourceTree = "<group>"; };
+		B59864C61C07F88E00C48ED5 /* NSTimer+QYAddExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+QYAddExtensions.m"; sourceTree = "<group>"; };
+		B59864C81C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+QYAddExtensions.h"; sourceTree = "<group>"; };
+		B59864C91C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+QYAddExtensions.m"; sourceTree = "<group>"; };
+		B59864CC1C08298500C48ED5 /* QYClassPropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYClassPropertyInfo.h; sourceTree = "<group>"; };
+		B59864CD1C08298500C48ED5 /* QYClassPropertyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYClassPropertyInfo.m; sourceTree = "<group>"; };
+		B59864CF1C085F5100C48ED5 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		B59864D01C085F5100C48ED5 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B59864931C07F6FA00C48ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59864AC1C07F6FA00C48ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B598648D1C07F6FA00C48ED5 = {
+			isa = PBXGroup;
+			children = (
+				B59864C01C07F75300C48ED5 /* QYKitNodes */,
+				B59864981C07F6FA00C48ED5 /* QYNodeDemo */,
+				B59864B21C07F6FA00C48ED5 /* QYNodeDemoTests */,
+				B59864971C07F6FA00C48ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B59864971C07F6FA00C48ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59864961C07F6FA00C48ED5 /* QYNodeDemo.app */,
+				B59864AF1C07F6FA00C48ED5 /* QYNodeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59864981C07F6FA00C48ED5 /* QYNodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B598649D1C07F6FA00C48ED5 /* AppDelegate.h */,
+				B598649E1C07F6FA00C48ED5 /* AppDelegate.m */,
+				B59864A01C07F6FA00C48ED5 /* ViewController.h */,
+				B59864A11C07F6FA00C48ED5 /* ViewController.m */,
+				B59864A31C07F6FA00C48ED5 /* Main.storyboard */,
+				B59864A61C07F6FA00C48ED5 /* Images.xcassets */,
+				B59864A81C07F6FA00C48ED5 /* LaunchScreen.xib */,
+				B59864991C07F6FA00C48ED5 /* Supporting Files */,
+			);
+			path = QYNodeDemo;
+			sourceTree = "<group>";
+		};
+		B59864991C07F6FA00C48ED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B598649A1C07F6FA00C48ED5 /* Info.plist */,
+				B598649B1C07F6FA00C48ED5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B59864B21C07F6FA00C48ED5 /* QYNodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B59864B51C07F6FA00C48ED5 /* QYNodeDemoTests.m */,
+				B59864B31C07F6FA00C48ED5 /* Supporting Files */,
+			);
+			path = QYNodeDemoTests;
+			sourceTree = "<group>";
+		};
+		B59864B31C07F6FA00C48ED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B59864B41C07F6FA00C48ED5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B59864C01C07F75300C48ED5 /* QYKitNodes */ = {
+			isa = PBXGroup;
+			children = (
+				B59864CB1C0828E900C48ED5 /* QylModel */,
+				B59864C11C07F7D700C48ED5 /* QYAdd */,
+			);
+			name = QYKitNodes;
+			path = ../QYKitNodes;
+			sourceTree = "<group>";
+		};
+		B59864C11C07F7D700C48ED5 /* QYAdd */ = {
+			isa = PBXGroup;
+			children = (
+				B59864C51C07F88E00C48ED5 /* NSTimer+QYAddExtensions.h */,
+				B59864C61C07F88E00C48ED5 /* NSTimer+QYAddExtensions.m */,
+				B59864C81C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.h */,
+				B59864C91C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.m */,
+			);
+			path = QYAdd;
+			sourceTree = "<group>";
+		};
+		B59864CB1C0828E900C48ED5 /* QylModel */ = {
+			isa = PBXGroup;
+			children = (
+				B59864CC1C08298500C48ED5 /* QYClassPropertyInfo.h */,
+				B59864CD1C08298500C48ED5 /* QYClassPropertyInfo.m */,
+				B59864CF1C085F5100C48ED5 /* NSObject+YYModel.h */,
+				B59864D01C085F5100C48ED5 /* NSObject+YYModel.m */,
+			);
+			path = QylModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59864951C07F6FA00C48ED5 /* QYNodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59864B91C07F6FA00C48ED5 /* Build configuration list for PBXNativeTarget "QYNodeDemo" */;
+			buildPhases = (
+				B59864921C07F6FA00C48ED5 /* Sources */,
+				B59864931C07F6FA00C48ED5 /* Frameworks */,
+				B59864941C07F6FA00C48ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYNodeDemo;
+			productName = QYNodeDemo;
+			productReference = B59864961C07F6FA00C48ED5 /* QYNodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B59864AE1C07F6FA00C48ED5 /* QYNodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59864BC1C07F6FA00C48ED5 /* Build configuration list for PBXNativeTarget "QYNodeDemoTests" */;
+			buildPhases = (
+				B59864AB1C07F6FA00C48ED5 /* Sources */,
+				B59864AC1C07F6FA00C48ED5 /* Frameworks */,
+				B59864AD1C07F6FA00C48ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B59864B11C07F6FA00C48ED5 /* PBXTargetDependency */,
+			);
+			name = QYNodeDemoTests;
+			productName = QYNodeDemoTests;
+			productReference = B59864AF1C07F6FA00C48ED5 /* QYNodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B598648E1C07F6FA00C48ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = lqy;
+				TargetAttributes = {
+					B59864951C07F6FA00C48ED5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B59864AE1C07F6FA00C48ED5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B59864951C07F6FA00C48ED5;
+					};
+				};
+			};
+			buildConfigurationList = B59864911C07F6FA00C48ED5 /* Build configuration list for PBXProject "QYNodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B598648D1C07F6FA00C48ED5;
+			productRefGroup = B59864971C07F6FA00C48ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59864951C07F6FA00C48ED5 /* QYNodeDemo */,
+				B59864AE1C07F6FA00C48ED5 /* QYNodeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B59864941C07F6FA00C48ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59864A51C07F6FA00C48ED5 /* Main.storyboard in Resources */,
+				B59864AA1C07F6FA00C48ED5 /* LaunchScreen.xib in Resources */,
+				B59864A71C07F6FA00C48ED5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59864AD1C07F6FA00C48ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B59864921C07F6FA00C48ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59864A21C07F6FA00C48ED5 /* ViewController.m in Sources */,
+				B59864CA1C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.m in Sources */,
+				B59864D11C085F5100C48ED5 /* NSObject+YYModel.m in Sources */,
+				B598649F1C07F6FA00C48ED5 /* AppDelegate.m in Sources */,
+				B59864CE1C08298500C48ED5 /* QYClassPropertyInfo.m in Sources */,
+				B59864C71C07F88E00C48ED5 /* NSTimer+QYAddExtensions.m in Sources */,
+				B598649C1C07F6FA00C48ED5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59864AB1C07F6FA00C48ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59864B61C07F6FA00C48ED5 /* QYNodeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B59864B11C07F6FA00C48ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59864951C07F6FA00C48ED5 /* QYNodeDemo */;
+			targetProxy = B59864B01C07F6FA00C48ED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B59864A31C07F6FA00C48ED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59864A41C07F6FA00C48ED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B59864A81C07F6FA00C48ED5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59864A91C07F6FA00C48ED5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B59864B71C07F6FA00C48ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B59864B81C07F6FA00C48ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B59864BA1C07F6FA00C48ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QYNodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B59864BB1C07F6FA00C48ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QYNodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B59864BD1C07F6FA00C48ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QYNodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYNodeDemo.app/QYNodeDemo";
+			};
+			name = Debug;
+		};
+		B59864BE1C07F6FA00C48ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QYNodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYNodeDemo.app/QYNodeDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B59864911C07F6FA00C48ED5 /* Build configuration list for PBXProject "QYNodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59864B71C07F6FA00C48ED5 /* Debug */,
+				B59864B81C07F6FA00C48ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59864B91C07F6FA00C48ED5 /* Build configuration list for PBXNativeTarget "QYNodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59864BA1C07F6FA00C48ED5 /* Debug */,
+				B59864BB1C07F6FA00C48ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B59864BC1C07F6FA00C48ED5 /* Build configuration list for PBXNativeTarget "QYNodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59864BD1C07F6FA00C48ED5 /* Debug */,
+				B59864BE1C07F6FA00C48ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B598648E1C07F6FA00C48ED5 /* Project object */;
+}
