@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E179A0E1-92D0-4DC3-B6F1-F372FABE0B05</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>QYNodeDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>457993721EAF3C9785316177FE562447E437DF42</key>
 		<string>https://github.com/qianyongluo/QYNodes.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>QYNodeDemo/QYNodeDemo.xcodeproj/project.xcworkspace</string>
+	<string>QYNodeDemo/QYNodeDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>457993721EAF3C9785316177FE562447E437DF42</key>

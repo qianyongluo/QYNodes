@@ -16,52 +16,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJV-TD-ta8">
-                                <rect key="frame" x="213" y="36" width="128" height="30"/>
-                                <state key="normal" title="alertWithBlockTest">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="alertTest:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4gF-jH-BUf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfd-T3-8MF">
-                                <rect key="frame" x="226" y="128" width="102" height="30"/>
-                                <state key="normal" title="timerBlockTest">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="timerTest:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3QK-Sy-TbK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rby-V0-0kj">
-                                <rect key="frame" x="16" y="28" width="102" height="30"/>
-                                <state key="normal" title="我是返回">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="returnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dfh-CI-mRx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qr-JB-u7y">
-                                <rect key="frame" x="241" y="227" width="73" height="30"/>
-                                <state key="normal" title="StartTImer">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="statusWithTimer:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MDM-uF-f0m"/>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NWK-cv-NUx">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFf-if-Efl">
+                                        <rect key="frame" x="213" y="36" width="128" height="30"/>
+                                        <state key="normal" title="alertWithBlockTest">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="alertTest:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Gef-uu-Ikg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SX6-mY-iVA">
+                                        <rect key="frame" x="226" y="128" width="102" height="30"/>
+                                        <state key="normal" title="timerBlockTest">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="timerTest:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VHY-4z-gaC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtZ-Nm-Gvw">
+                                        <rect key="frame" x="16" y="28" width="102" height="30"/>
+                                        <state key="normal" title="我是返回">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="returnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="heM-R7-L18"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKS-i4-Gms">
+                                        <rect key="frame" x="241" y="227" width="73" height="30"/>
+                                        <state key="normal" title="StartTImer">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="statusWithTimer:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NVO-3o-uAm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGt-I1-PGO">
+                                        <rect key="frame" x="57" y="303" width="46" height="30"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="nullSafeTest:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RiT-uz-ahz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="SX6-mY-iVA" firstAttribute="top" secondItem="kFf-if-Efl" secondAttribute="bottom" constant="62" id="aIH-ib-Peq"/>
+                                    <constraint firstItem="kFf-if-Efl" firstAttribute="centerX" secondItem="SX6-mY-iVA" secondAttribute="centerX" id="c9p-3u-ChW"/>
+                                    <constraint firstItem="zKS-i4-Gms" firstAttribute="top" secondItem="SX6-mY-iVA" secondAttribute="bottom" constant="69" id="mjG-OB-tW0"/>
+                                    <constraint firstItem="zKS-i4-Gms" firstAttribute="centerX" secondItem="SX6-mY-iVA" secondAttribute="centerX" id="pvb-Y2-hn7"/>
+                                    <constraint firstAttribute="centerX" secondItem="kFf-if-Efl" secondAttribute="centerX" constant="23.5" id="qzU-Tb-eNg"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="WJV-TD-ta8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="16" id="3aG-n1-bFc"/>
-                            <constraint firstAttribute="centerX" secondItem="WJV-TD-ta8" secondAttribute="centerX" constant="23.5" id="AQN-pA-9a1"/>
-                            <constraint firstItem="gfd-T3-8MF" firstAttribute="top" secondItem="WJV-TD-ta8" secondAttribute="bottom" constant="62" id="IXI-8w-v2U"/>
-                            <constraint firstItem="0qr-JB-u7y" firstAttribute="top" secondItem="gfd-T3-8MF" secondAttribute="bottom" constant="69" id="R2P-Iz-hOv"/>
-                            <constraint firstItem="0qr-JB-u7y" firstAttribute="centerX" secondItem="gfd-T3-8MF" secondAttribute="centerX" id="S1q-Q1-MMS"/>
-                            <constraint firstItem="WJV-TD-ta8" firstAttribute="centerX" secondItem="gfd-T3-8MF" secondAttribute="centerX" id="aqO-hU-TL8"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

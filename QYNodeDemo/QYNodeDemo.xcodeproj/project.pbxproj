@@ -18,6 +18,8 @@
 		B59864CA1C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B59864C91C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.m */; };
 		B59864CE1C08298500C48ED5 /* QYClassPropertyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B59864CD1C08298500C48ED5 /* QYClassPropertyInfo.m */; };
 		B59864D11C085F5100C48ED5 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B59864D01C085F5100C48ED5 /* NSObject+YYModel.m */; };
+		B5FEF8BB1C0BF9DE00540FB3 /* NSNull+QylAddNullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FEF8BA1C0BF9DE00540FB3 /* NSNull+QylAddNullSafe.m */; };
+		B5FEF8BE1C0C232B00540FB3 /* WoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FEF8BD1C0C232B00540FB3 /* WoTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		B59864CD1C08298500C48ED5 /* QYClassPropertyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYClassPropertyInfo.m; sourceTree = "<group>"; };
 		B59864CF1C085F5100C48ED5 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
 		B59864D01C085F5100C48ED5 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		B5FEF8B91C0BF9DE00540FB3 /* NSNull+QylAddNullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+QylAddNullSafe.h"; sourceTree = "<group>"; };
+		B5FEF8BA1C0BF9DE00540FB3 /* NSNull+QylAddNullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+QylAddNullSafe.m"; sourceTree = "<group>"; };
+		B5FEF8BC1C0C232B00540FB3 /* WoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoTest.h; sourceTree = "<group>"; };
+		B5FEF8BD1C0C232B00540FB3 /* WoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,8 @@
 				B59864C61C07F88E00C48ED5 /* NSTimer+QYAddExtensions.m */,
 				B59864C81C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.h */,
 				B59864C91C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.m */,
+				B5FEF8B91C0BF9DE00540FB3 /* NSNull+QylAddNullSafe.h */,
+				B5FEF8BA1C0BF9DE00540FB3 /* NSNull+QylAddNullSafe.m */,
 			);
 			path = QYAdd;
 			sourceTree = "<group>";
@@ -160,6 +168,8 @@
 				B59864CD1C08298500C48ED5 /* QYClassPropertyInfo.m */,
 				B59864CF1C085F5100C48ED5 /* NSObject+YYModel.h */,
 				B59864D01C085F5100C48ED5 /* NSObject+YYModel.m */,
+				B5FEF8BC1C0C232B00540FB3 /* WoTest.h */,
+				B5FEF8BD1C0C232B00540FB3 /* WoTest.m */,
 			);
 			path = QylModel;
 			sourceTree = "<group>";
@@ -266,10 +276,12 @@
 			files = (
 				B59864A21C07F6FA00C48ED5 /* ViewController.m in Sources */,
 				B59864CA1C07FCDF00C48ED5 /* UIAlertView+QYAddExtensions.m in Sources */,
+				B5FEF8BB1C0BF9DE00540FB3 /* NSNull+QylAddNullSafe.m in Sources */,
 				B59864D11C085F5100C48ED5 /* NSObject+YYModel.m in Sources */,
 				B598649F1C07F6FA00C48ED5 /* AppDelegate.m in Sources */,
 				B59864CE1C08298500C48ED5 /* QYClassPropertyInfo.m in Sources */,
 				B59864C71C07F88E00C48ED5 /* NSTimer+QYAddExtensions.m in Sources */,
+				B5FEF8BE1C0C232B00540FB3 /* WoTest.m in Sources */,
 				B598649C1C07F6FA00C48ED5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +477,7 @@
 				B59864BB1C07F6FA00C48ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B59864BC1C07F6FA00C48ED5 /* Build configuration list for PBXNativeTarget "QYNodeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +486,7 @@
 				B59864BE1C07F6FA00C48ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

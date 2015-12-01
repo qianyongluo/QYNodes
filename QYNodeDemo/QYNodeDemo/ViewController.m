@@ -11,6 +11,18 @@
 #import "NSTimer+QYAddExtensions.h"
 #import "UIAlertView+QYAddExtensions.h"
 
+#import "NSNull+QylAddNullSafe.h"
+
+@interface CrashNull : NSNull
+
+- (NSInteger)crashNull;
+
+@end
+
+@implementation CrashNull
+
+@end
+
 @interface ViewController (){
     NSTimer *_timer;
     
@@ -46,7 +58,6 @@
 }
 
 - (IBAction)statusWithTimer:(id)sender {
-    
     if ([sender tag] == 0) {
         [sender setTag:1];
         [sender setTitle:@"stop" forState:UIControlStateNormal];
@@ -58,7 +69,6 @@
         [sender setBackgroundColor:[UIColor redColor]];
         [self.timer fire];
     }
-    
 }
 
 - (NSTimer *)timer{
@@ -73,10 +83,12 @@
 }
 
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
-    
 }
 
+- (IBAction)nullSafeTest:(id)sender {
+    CrashNull *nl =[[CrashNull alloc] init];;
+    NSLog(@"输出 的 长度 length test:%ld",[nl crashNull]);
+}
 
 @end
